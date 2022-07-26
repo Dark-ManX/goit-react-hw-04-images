@@ -5,7 +5,7 @@ import ImageGallery from '../ImageGallery/ImageGallery';
 import Loader from '../Loader/Loader';
 import Modal from '../Modal/Modal';
 import fetchRes from '../additional/fetchFunc/fetchFunc';
-import { Container, Button, DisabledBtn } from './App.styled';
+import { Container, Button, DisabledBtn, Image } from './App.styled';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -132,7 +132,7 @@ const App = () => {
 
           {showModal && (
             <Modal
-              children={<img src={img} alt={alt} />}
+              children={<Image src={img} alt={alt} />}
               onClose={() => dispatch({ type: 'CLOSE_MODAL', payload: { showModal: false } })}
             />
           )}
