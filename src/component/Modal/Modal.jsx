@@ -24,17 +24,6 @@ useEffect(() => {
 
     window.addEventListener('click', handleClick)
 })
-    // componentDidMount() {
-    //     window.addEventListener('keydown', this.handleKeyDown)
-
-    //     window.addEventListener('click', this.handleClick)
-    //     }
-
-    // componentWillUnmount() {
-    //     window.removeEventListener('keydown', this.handleKeyDown);
-
-    //     window.removeEventListener('click', this.handleClick);
-    // }
 
     return createPortal(
         <ModalBackdrop>

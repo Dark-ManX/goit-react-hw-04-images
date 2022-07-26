@@ -102,13 +102,10 @@ const App = () => {
         alt: image.tags,
       },
     });
-    //     });
   };
 
   const { status, gallery, disabled, showModal, img, alt } = initialValue;
-  // const handleClose = () => {}
-  //   ;
-  // };
+
   console.log(initialValue.img);
   return (
     <Container>
