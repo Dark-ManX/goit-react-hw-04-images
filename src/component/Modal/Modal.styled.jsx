@@ -14,8 +14,6 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -45vh);
-width: 70%;
-height: auto;
 background-color: white;
 border-radius: 25px;
 padding: 0;
